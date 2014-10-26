@@ -1,4 +1,5 @@
-#Details_#
+#Details#
+
 *Instructions*: Describe the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
 
 Assumes data is stored in __UCI_HAR_Dataset__ folder
@@ -19,6 +20,7 @@ Assumes data is stored in __UCI_HAR_Dataset__ folder
 |dataset_Final|data.frame|merged dataset in a single data.frame|
 
 ##Data##
+
 +dataset
 +dataset_Final
 
