@@ -21,8 +21,8 @@ Assumes data is stored in __UCI_HAR_Dataset__ folder in the working directory
 
 ##Data##
 
-*dataset
-*dataset_Final
+* dataset
+* dataset_Final
 
 
 ##Transformations##
