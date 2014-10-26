@@ -5,9 +5,11 @@ Assumes data is stored in __UCI_HAR_Dataset__ folder
 
 
 ##Variables##
+
 |Variable names| DataType|Description|
+|----|----|----|
 |featureColnames| character vector| feature descriptions for use in naming columns|
-|activityNames| character vector|   assigning activity with descriptions indead of ID|
+|activityNames| character vector|   assigning activity with descriptions instead of ID|
 |sets       |   character vector|   to help with loading of data|
 |dataset|list of lists of lists|   contains all the data files (before merging)|
 |test.mean|data.frame| test dataset mean |
