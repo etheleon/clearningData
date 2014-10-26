@@ -75,7 +75,8 @@ colnames(dataset_Final)[colnames(dataset_Final) == duplicated] = paste(
 
 #Summarise data
 tidy.df = dataset_Final %>% 
-group_by(type, activityType, subjectID) %>%   #for each activity and each subject
+select(-type) %>% #merges data between training and test
+group_by(activityType, subjectID) %>%   #for each activity and each subject
 summarise_each(funs(mean))
 #Write tidy-ed data into file
-write.table(tidy.df, file="tidyDF.txt")
+write.table(tidy.df, row.name=F, file="tidyDF.txt", sep="\t")
